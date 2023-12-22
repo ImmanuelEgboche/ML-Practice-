@@ -8,10 +8,13 @@ In simple linear regression, models the relationship between two variables. The 
 
 $$y = mx + b$$
 
-- \( y \) is the dependent variable (what we're trying to predict).
-- \( x \) is the independent variable (the predictor).
-- \( m \) is the slope of the line (how much \( y \) changes for a unit change in \( x \)).
-- \( b \) is the y-intercept (the value of \( y \) when \( x = 0 \)).
+- Dependent Variable (y): The variable we are trying to predict. In simple linear regression, y is modeled as a function of a single independent variable.
+
+- Independent Variable (x): The predictor variable used to predict y. It is assumed to be related to the dependent variable linearly.
+
+- Slope (m): Represents the rate of change of the dependent variable (y) with respect to the independent variable (x). It tells us how much y will change for each unit increase in x.
+
+- Y-Intercept (b): This is the value of y when x is zero. It represents the point where the line crosses the y-axis in a graph of the relationship.
 
 
 ### Multiple Linear Regression
@@ -22,9 +25,11 @@ $$
 y = b_0 + b_1x_1 + b_2x_2 + \ldots + b_nx_n
 $$
 
-- \( y \) is still the dependent variable.
-- \( x_1, x_2, \ldots, x_n \) are the independent variables.
-- \( b_0 \) is the y-intercept, and \( b_1, b_2, \ldots, b_n \) are coefficients for each independent variable.
+- Dependent Variable (y): This is the variable that we are trying to predict or explain. It depends on the independent variables.
+
+- Independent Variables (x₁, x₂, ..., xₙ): These are the variables that provide the input or the factors that is used to predict the dependent variable. Each x represents a different independent variable.
+
+- Coefficients (b₀, b₁, b₂, ..., bₙ): b₀ is the y-intercept, which is the predicted value of y when all the independent variables are equal to zero. The other coefficients (b₁, b₂, ..., bₙ) represent the effect of each independent variable on the dependent variable. They say yu how much y changes for a unit change in each x.
 
 
 
