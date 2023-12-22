@@ -6,7 +6,7 @@ Linear regression is a statiscal method used to model relationships between a de
 
 In simple linear regression, models the relationship between two variables. The equation is:
 
-`y = mx + b`
+$$y = mx + b$$
 
 - `y` is the dependent variable (what we're trying to predict)
 - `x` is the independent variable (he predictor)
