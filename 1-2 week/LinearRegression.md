@@ -8,37 +8,25 @@ In simple linear regression, models the relationship between two variables. The 
 
 $$y = mx + b$$
 
-- $$y$$ is the dependent variable (what we're trying to predict)
-- $$x$$ is the independent variable (he predictor)
-- $$m$$ is the slope of th eline (how much $$y$$ changes for the unit change in x)
-- $$b$$ is the y-intercept (the value of $$y$$ whe $$x$$ = 0 )
+- \( y \) is the dependent variable (what we're trying to predict).
+- \( x \) is the independent variable (the predictor).
+- \( m \) is the slope of the line (how much \( y \) changes for a unit change in \( x \)).
+- \( b \) is the y-intercept (the value of \( y \) when \( x = 0 \)).
+
 
 ### Multiple Linear Regression
 
 In multiple linear regression this is extended to multiple independent variables:
 
-$$y=b 
-0
-​
- +b 
-1
-​
- x 
-1
-​
- +b 
-2
-​
- x 
-2
-​
- +...+b 
-n
-​
- x 
-n
-​
 $$
+y = b_0 + b_1x_1 + b_2x_2 + \ldots + b_nx_n
+$$
+
+- \( y \) is still the dependent variable.
+- \( x_1, x_2, \ldots, x_n \) are the independent variables.
+- \( b_0 \) is the y-intercept, and \( b_1, b_2, \ldots, b_n \) are coefficients for each independent variable.
+
+
 
 
 
