@@ -31,7 +31,19 @@ $$
 
 - Coefficients (b₀, b₁, b₂, ..., bₙ): b₀ is the y-intercept, which is the predicted value of y when all the independent variables are equal to zero. The other coefficients (b₁, b₂, ..., bₙ) represent the effect of each independent variable on the dependent variable. They say yu how much y changes for a unit change in each x.
 
+## Practice 
+
+We have a dataset of house prices where we want to predict the price of a house based on its size (in square feet).
+
+| Size (sq ft) | Price ($) |
+|--------------|-----------|
+| 600          | 300,000   |  
+| 800          | 350,000   |
+| 1000         | 400,000   |
+| 1200         | 450,000   |
+| 1400         | 500,000   |
 
 
+Find a linear relationship between the Size and the Price. Then use it to predict the price of a house with a size of 1100 sq ft and 1500 sq ft
 
 
