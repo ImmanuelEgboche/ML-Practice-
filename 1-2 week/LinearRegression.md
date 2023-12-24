@@ -31,6 +31,26 @@ $$
 
 - Coefficients (b₀, b₁, b₂, ..., bₙ): b₀ is the y-intercept, which is the predicted value of y when all the independent variables are equal to zero. The other coefficients (b₁, b₂, ..., bₙ) represent the effect of each independent variable on the dependent variable. They say yu how much y changes for a unit change in each x.
 
+## Mean Squared error 
+
+Mean Squared error (MSE) is used to measyre the average squared difference between estimated values(in this case predictions) and the actual value. In the context of regression analysis, its a way to measure the error of a model in predicting quantitative data 
+
+### Formula 
+
+The MSE is calculated as the average of the squares of the errors, the average squared difference between the estimated values and the actual value. Represented as: 
+
+MSE = $\frac{1}{n}$ $\sum_{i=1}^{n}$ ($y_i$ - $\hat{y}_i$)$^2$
+
+- `n` is the number of observations.
+- `Y_i` is the actual value of an observation.
+- `Ŷ_i` (or `Y_hat_i`) is the predicted value for that observation.
+
+### Importance of MSE 
+
+- 
+
+
+
 ## Practice 
 
 We have a dataset of house prices where we want to predict the price of a house based on its size (in square feet).
