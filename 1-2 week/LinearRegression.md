@@ -47,7 +47,19 @@ MSE = $\frac{1}{n}$ $\sum_{i=1}^{n}$ ($y_i$ - $\hat{y}_i$)$^2$
 
 ### Importance of MSE 
 
-- 
+- MSE shows error magnitude which helps to quantify the magnitude of the error in predicition models. it squares the errors, which has the effect of heavily penalizing larger errors. This can be particually usefulw hen large errors are more undesirable than smaller ones.
+
+- The squaring of errors makes MSE continously differentiable, which is benficial for optimization algorithms that rely on derivatives, such as gradient descent
+
+- By squaring the errors, MSE puts the errors in the same units as the square of the output variable. This is usefulf for comparison across datasets or models
+
+- MSE also provides a way to measure the performance of difference predictive models on the same dataset
+
+### Limitations 
+
+- Due to the squaring of each term, MSE can be sensitivte to outliers. Large deviations are given disproportinately large weights, which can skew the results if data containers outliers
+
+- The value of MSE is scale-dependent, whihc means it can vary significantly across datasets with different scales. Which can make it challenging to compare across datasets 
 
 
 
