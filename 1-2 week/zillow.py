@@ -16,6 +16,7 @@ df_long['Month'] = df_long['Date'].dt.month
 
 grouped = df_long.groupby(['RegionName','Year','Month'])['HousePrice'].mean()
 
+# save to csv file and plot each state seperately
 
-print(grouped)
-
+grouped.to_csv('every_state.csv')
+print('done')

@@ -61,6 +61,11 @@ MSE = $\frac{1}{n}$ $\sum_{i=1}^{n}$ ($y_i$ - $\hat{y}_i$)$^2$
 
 - The value of MSE is scale-dependent, whihc means it can vary significantly across datasets with different scales. Which can make it challenging to compare across datasets 
 
+### 
+
+- You would want the MSE to be as small as possible compared to the variance. A standard measure for this is the coefficient of determination, also known as "R squared":
+    𝑅2=1−𝑀𝑆𝐸𝑣𝑎𝑟(𝑌).
+
 
 
 ## Practice 
